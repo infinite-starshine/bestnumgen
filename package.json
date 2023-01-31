@@ -1,0 +1,19 @@
+{
+  "name": "@infinite-starshine/bestnumgen",
+  "version": "1.0.0",
+  "description": "Generates only the best numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infinite-starshine/bestnumgen.git"
+  },
+  "author": "Infinite Starshine",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/infinite-starshine/bestnumgen/issues"
+  },
+  "homepage": "https://github.com/infinite-starshine/bestnumgen#readme"
+}
