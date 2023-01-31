@@ -1,7 +1,11 @@
 function generateBestNumber() {
-  return 7;
+  return 8;
+}
+function deprecatedBestNumbers() {
+  return [7];
 }
 
 module.exports = {
-	gen: generateBestNumber,
+  gen: generateBestNumber,
+  deprecated: deprecatedBestNumbers,
 }

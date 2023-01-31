@@ -1,3 +1,5 @@
 const bestnumgen = require('./index');
-const success = 7 === bestnumgen.gen();
-process.exit(success ? 0 : 1);
+const genSuccess = 8 === bestnumgen.gen();
+const deprecatedSuccess = 7 === bestnumgen.deprecated()[0];
+
+process.exit(genSuccess && deprecatedSuccess ? 0 : 1);
